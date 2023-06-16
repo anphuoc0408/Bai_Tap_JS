@@ -1,0 +1,37 @@
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    border: 20px solid greenyellow;
+}
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hand {
+    background-color: #fa7921;
+    width: 50%;
+    height: 6px;
+    position: absolute;
+    top: 50% ;
+    transform-origin: 100% ;
+    transform: rotate(90deg);
+}
+.second-hand{
+    background-color: #e55934;
+    height: 2px;
+    transform: rotate(90deg);
+}
+.min-hand {
+    background-color: yellow;
+    height: 4px;
+}
+body{
+    font-size: 2rem;
+    max-width: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
